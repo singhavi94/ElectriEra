@@ -376,6 +376,69 @@ a.navbar-brand:hover
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+#section2a
+{
+  height: 100%;
+  
+}
+ 
+.carousel-indicators .active {
+    background-color: orange;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px
+}
+
+.carousel-control {
+    width: 0;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+    right: 0;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+    background-color: #000;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+    opacity: .7;
+    filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 57%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 40px;
+}
+
+.header-text h2 span {
+    background-color:orange;
+    letter-spacing: 2px;
+    font-family: Aladin;    padding: 10px;
+}
+
+.header-text h3 span {
+    background-color: #000;
+    padding: 15px;
+    font-family: Chicle;
+    letter-spacing: 2px;
+}
+
+ 
    #section3 
   {
     height:100%;
@@ -506,6 +569,10 @@ a.navbar-brand:hover
     letter-spacing: 2px;
     margin-top: -20px;
   }
+  #section h3
+  {
+    font-family: Aladin;
+  }
   #section4 i
   {
     color: #F26638;
@@ -609,22 +676,76 @@ a.navbar-brand:hover
   }
   #section7 .well {border:2px solid orange;padding: 5px;background-color: transparent;}
   #section7 .well img{width: 100%;}
+   .reviews_well .well h4{font-size:16px;font-weight: bold;font-family: Arial;margin: 0px; }
+         .reviews_well .well p{font-size: 12px;}
+         .reviews_well_personal img{margin-left: 10px;}
+         .reviews_well_social img {margin-top:5px;margin-right: 10px;}
+         .reviews_well_coment p{color: grey;}
+           h6{text-align: justify;padding: 14px;}
 
   #section8 
   {
-    height: 400px;
-    background-color: orange;
+    height: 100%;
+    background-color: ;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+   .contact_content_well .well
+ {
+  padding: 0px;
+  border-radius: 0px;
+  background-color:white;
+  border:3px solid #ff8a00;
+
+ }
+ .contact_content_well .well h2
+ {
+  letter-spacing: 5px;
+    padding: 10px;
+    color:#1c2833; 
+    text-align:center;
+    font-family:Chicle;
+ }
+   .contact_content_well .well .address 
+ {
+   padding-bottom: 40px;
+
+ }
+  .contact_content_well .well .address p
+ {
+    letter-spacing: 2px;
+    color:#1c2833; 
+    text-align:left;
+    font-size: 14px;
+    font-family:Baloo Bhai;
+ }
+.contact_map_well .well
+ {
+  padding: 0px;
+  border-radius: 0px;
+  background-color:white;
+  overflow: hidden;
+ }
+ .curve_address_bottom
+  {
+    height: 40px;
+    width: 40px;
+    background-color:white;
+    border-top: 0px solid #1c2833;
+    border-left: 0px solid #1c2833;
+    border-right: 3px solid #ff8a00;
+    border-bottom:  3px solid #ff8a00;
+    transform: rotate(45deg);
+    margin-top: -41px;
+    margin-left:250px;
   }
   #section9
   {
-    height: 500px;
-    background-color: indigo;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: 100%;
+    background-color:white;
   }
-
+  #section10 {height: 150px;  background-image: url(image/up.png);background-size: cover;}
+  #section10 h4{float: left; color: white;margin:0px;padding: 10px;font-family: Chicle;letter-spacing: 2px;}
 
 
 
